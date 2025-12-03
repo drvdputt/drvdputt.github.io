@@ -46,7 +46,7 @@
                 <h1>Contact</h1>
                 <p> ✉️ dvandepu AT uwo.ca </p>
                 <p> <img src="images/github-mark-white.png" style="width:15px; height:15px"/>
-                drvdputt </p>
+                  drvdputt </p>
               </div>
             </div>
           </div>
@@ -162,21 +162,68 @@
               <article class="blog-post">
                 <h2>Recent publications</h2>
                 <a href="#"><img src="images/orion cut.jpg" alt="" class="top blog-post-image" /></a>
+                <h3>PDRs4All: XVI. Tracing aromatic infrared band characteristics in photodissociation region spectra with PAHFIT in the JWST era</h3>
+                <p> Context. Photodissociation regions (PDRs) exhibit strong
+                emission bands between 3–20 μm known as the aromatic infrared
+                bands (AIBs), and they originate from small carbonaceous species
+                such as polycyclic aromatic hydrocarbons (PAHs) excited by UV
+                radiation. The AIB spectra observed in Galactic PDRs are
+                considered a local analog for those seen in extragalactic
+                star-forming regions. Recently, the PDRs4All JWST program
+                observed the Orion Bar PDR, revealing the subcomponents and
+                profile variations of the AIBs in very high detail. Aims. We
+                present the Python version of PAHFIT, a spectral decomposition
+                tool that separates the contributions by AIB subcomponents,
+                thermal dust emission, gas lines, stellar light, and dust
+                extinction. We aim to provide a configuration that enables
+                highly detailed decompositions of JWST spectra of PDRs (3.1–26
+                μm) and to test if the same configuration is suitable to
+                characterize AIB emission in extragalactic star forming regions.
+                Methods. We determined the central wavelength and FWHM of the
+                AIB subcomponents by fitting selected segments of the Orion Bar
+                spectra and compiled them into a "PDR pack" for PAHFIT. We
+                tested the PDR pack by applying PAHFIT to the full 3.1–26 μm
+                PDRs4All templates. We applied PAHFIT with this PDR pack and the
+                default continuum model to seven spectra extracted from the
+                central star forming ring of the galaxy NGC7469. Results. We
+                introduce an alternate dust continuum model to fit the Orion Bar
+                spectra, as the default PAHFIT continuum model mismatches the
+                intensity at 15–26 μm. Using the PDR pack and the alternate
+                continuum model, PAHFIT reproduces the Orion Bar template
+                spectra with residuals of a few percent. A similar performance
+                is achieved when applying the PDR pack to the NGC7469 spectra.
+                We provide PAHFIT-based diagnostics that trace the profile
+                variations of the 3.3, 3.4, 5.7, 6.2, and 7.7 μm AIBs and thus
+                the photochemical evolution of the AIB carriers. The 5.7 μm AIB
+                emission originates from at least two subpopulations, one more
+                prominent in highly irradiated environments and one preferring
+                more shielded environments. Smaller PAHs as well as very small
+                grains or PAH clusters both thrive in the more shielded
+                environments of the molecular zone in the Orion Bar. Based on
+                these new diagnostics, we show and quantify the strong
+                similarity of the AIB profiles observed in NGC7469 to the Orion
+                Bar template spectra. </p>
+                <footer class="controls">
+                  <a href="https://ui.adsabs.harvard.edu/abs/2025A%26A...701A.111V/abstract" class="button">View on ADS</a>
+                </footer>
                 <h3>PDRs4All VIII: MIR emission line inventory of the Orion Bar</h3>
                 <p> Mid-infrared emission features probe the properties of
-                  ionized gas, and hot or warm molecular gas. The Orion Bar is a frequently
-                  studied photodissociation region (PDR) containing large amounts of gas under
-                  these conditions, and was observed with the MIRI IFU aboard JWST as part of the
-                  "PDRs4All" program. The resulting IR spectroscopic images of high angular
-                  resolution (0.2") reveal a rich observational inventory of mid-IR emission
-                  lines, and spatially resolve the substructure of the PDR, with a mosaic cutting
-                  perpendicularly across the ionization front and three dissociation fronts. We
-                  list around 100 lines in a table, and measured the line intensities and central
-                  wavelengths. The H I recombination lines originating from the ionized gas layer
-                  bordering the PDR. This includes H I recombination lines, various ionization
-                  stages of Ne, P, S, Cl, Ar, Fe, and Ni, and the pure-rotational H2 lines in the
-                  vibrational ground state from 0-0 S(1) to 0-0 S(8), and in the first
-                  vibrationally excited state from 1-1 S(5) to 1-1 S(9).
+                  ionized gas, and hot or warm molecular gas. The Orion Bar is a
+                  frequently studied photodissociation region (PDR) containing
+                  large amounts of gas under these conditions, and was observed
+                  with the MIRI IFU aboard JWST as part of the "PDRs4All"
+                  program. The resulting IR spectroscopic images of high angular
+                  resolution (0.2") reveal a rich observational inventory of
+                  mid-IR emission lines, and spatially resolve the substructure
+                  of the PDR, with a mosaic cutting perpendicularly across the
+                  ionization front and three dissociation fronts. We list around
+                  100 lines in a table, and measured the line intensities and
+                  central wavelengths. The H I recombination lines originating
+                  from the ionized gas layer bordering the PDR. This includes H
+                  I recombination lines, various ionization stages of Ne, P, S,
+                  Cl, Ar, Fe, and Ni, and the pure-rotational H2 lines in the
+                  vibrational ground state from 0-0 S(1) to 0-0 S(8), and in the
+                  first vibrationally excited state from 1-1 S(5) to 1-1 S(9).
                 </p>
                 <footer class="controls">
                   <a href="https://arxiv.org/abs/2404.03111" class="button">View on ArXiv</a>
@@ -194,31 +241,24 @@
             <div class="col-8 col-8-medium">
               <section>
                 <h2>Collaborations</h2>
-                  <div class="row">
-                    <div class="col-4 col-6-medium col-12-small">
-                      <h3>PDRs4all</h3>
-                      <ul class="link-list">
-                        <li>Large collaboration around JWST observations of the Orion Bar
-                        </li>
-                        <li><a href="https://pdrs4all.org">Official website (pdrs4all.org)</a></li>
-                        <li><a href="https://www.stsci.edu/jwst/science-execution/approved-programs/dd-ers/program-1288">Program ERS-1288 (stsci.edu)</a></li>
-                      </ul>
-                    </div>
-                    <div class="col-4 col-6-medium col-12-small">
-                      <h3>PDR GTO</h3>
-                      <ul class="link-list">
-                        <li>Observations of the Horsehead and NGC7023 with JWST</li>
-                        <li><a href="https://www.stsci.edu/jwst/science-execution/program-information?id=1192">Program GTO-1192 (stsci.edu)</a></li>
-                      </ul>
-                    </div>
-                    <div class="col-4 col-6-medium col-12-small">
-                      <h3>The N13 PDR in the SMC</h3>
-                      <ul class="link-list">
-                        <li>The First Ever Low Metallicity PDR Benchmark</li>
-                        <li><a href="https://www.stsci.edu/jwst/science-execution/program-information?id=2521">Program GO-2521 (stsci.edu)</a></li>
-                      </ul>
-                    </div>
+                <div class="row">
+                  <div class="col-4 col-6-medium col-12-small">
+                    <h3>PDRs4all</h3>
+                    <ul class="link-list">
+                      <li>Large collaboration around JWST observations of the Orion Bar
+                      </li>
+                      <li><a href="https://pdrs4all.org">Official website (pdrs4all.org)</a></li>
+                      <li><a href="https://www.stsci.edu/jwst/science-execution/approved-programs/dd-ers/program-1288">Program ERS-1288 (stsci.edu)</a></li>
+                    </ul>
                   </div>
+                  <div class="col-4 col-6-medium col-12-small">
+                    <h3>PDR GTO</h3>
+                    <ul class="link-list">
+                      <li>Observations of the Horsehead and NGC7023 with JWST</li>
+                      <li><a href="https://www.stsci.edu/jwst/science-execution/program-information?id=1192">Program GTO-1192 (stsci.edu)</a></li>
+                    </ul>
+                  </div>
+                </div>
               </section>
             </div>
             <div class="col-4 col-4-medium">
