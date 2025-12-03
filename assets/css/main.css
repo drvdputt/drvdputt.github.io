@@ -1598,7 +1598,7 @@ input, select, textarea {
 /* Banner */
 
 	#banner-wrapper {
-		background: #e4e8df url(images/nircam-red.png);
+		background: #e4e8df url(images/bg1.png);
 		padding: 2em 0;
 	}
 
@@ -1607,7 +1607,7 @@ input, select, textarea {
 		width: 100%;
 		padding: 6em 0;
 		border-radius: 10px;
-		background-image: url(images/nircam-red.jpg);
+		background-image: url(images/banner.jpg);
 		background-size: cover;
 		text-align: center;
 		box-shadow: inset 0 0 0 20px #fff;
