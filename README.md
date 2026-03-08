@@ -13,3 +13,28 @@ definitions from this file. So if I ever want to change the design of the
 website, I should replace both the assets and the index.html structure by
 something from a new template. After that, I should copy-paste everything from
 the old website into the right places of index.html.
+
+## Notes on CSS system
+
+### Bootstrap grid (rows and columns)
+
+A 12 column system. See main.css to see what a variet of things do with respect to this grid.
+
+row -> container for the various column classes
+
+col-(number 1 to 12): columns of varying widths, e.g. col-1, col-2
+
+off-(number 1 to 12): offset by this much
+
+Ideally, all the columns and offsets add up to 12. 
+
+E.g.
+
+```html
+<div class="col-3 off-1">
+    <p>narrow content</p>
+</div>
+<div class="col-8">
+    <p>broader content </p>
+</div>
+```
