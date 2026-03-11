@@ -35,19 +35,43 @@
       <div id="banner-wrapper">
         <div class="container">
           <div id="banner">
-            <div class="row">
-              <div class="col-6 col-6-medium col-12-small">
-                <!-- <h2>Dries Van De Putte</h2> -->
+            <div class="row aln-middle">
+
+              <!-- first column of banner -->
+              <div class="col-3 off-1">
                 <center><a href="#"><img src="images/headshot.png" alt="" class="center" style="width:280px; height:280px; object-fit: cover;" /></a></center>
               </div>
-              <div class="col-6 col-6-medium col-12-small">
-                <center>
-                  <p><h3>✉️ dvandepu AT uwo.ca </h3></p>
-                  <footer class="controls">
-                    <p> <a href="images/cv.pdf" class="button">Academic CV</a> </p>
-                    <p> <a href="images/resume.pdf" class="button">Technical resume</a> </p>
-                  </footer>
-                  
+
+              <!-- second column of banner -->
+              <div class="col-4">
+                <h4>Links and downloads</h4>
+                <div class="col-12">
+                  <ul class="link-list">
+                    <li>
+                      <!-- <img src="images/github-mark-white.png" style="width:15px; height:15px"/> -->
+                      <a href="https://github.com/drvdputt">Github: github.com/drvdputt</a>
+                    </li>
+                    <li><a href="https://ui.adsabs.harvard.edu/search/filter_property_fq_property=AND&filter_property_fq_property=property%3A%22refereed%22&fq=%7B!type%3Daqp%20v%3D%24fq_property%7D&fq_property=(property%3A%22refereed%22)&q=orcid%3A0000-0002-5895-8268&sort=date%20desc%2C%20bibcode%20desc&p_=0"> List of refereed papers on ADS</a></li>
+                    <li><a href="https://orcid.org/0000-0002-5895-8268">ORCiD: 0000-0002-5895-8268</a></li>
+                  </ul>
+                </div>
+              </div>
+
+              <!-- third column of banner -->
+              <div class="col-4">
+                <footer class="controls">
+                  <p> <a href="images/cv.pdf" class="button">Academic CV</a> </p>
+                  <p> <a href="images/resume.pdf" class="button">Technical resume</a> </p>
+                </footer>
+              </div>
+
+            </div>
+
+            <!-- row under three banner columns -->
+            <div class="row gtr-25">
+              <!-- <h2>Dries Van De Putte</h2> -->
+              <div class="col-12">
+                <p>Personal keywords: Observational astronomer, pipeline wrangler, developer, reusable and reproducible tool enthusiast, Emacser.</p>
               </div>
             </div>
           </div>
@@ -58,21 +82,20 @@
       <div id="main">
         <div class="container">
           <div class="row main-row">
-            <div class="col-4 col-12-medium">
 
+            <div class="col-6 col-12-medium">
               <section>
-                <h2>Welcome to my personal website!</h2>
-                <p>Here you can find a selection of research highlights and some personal information you might find useful.</p>
+                <h2>Personal info (move this to the banner?)</h2>
                 <h4>Current position</h4>
                 <p>Postdoctoral researcher at Western University, London, Canada.</p>
                 <h4>Education</h4>
                 <p>Ph.D at Ghent University in 2020.</p>
               </section>
-
             </div>
-            <div class="col-4 col-6-medium col-12-small">
+
+            <div class="col-6 col-12-small">
               <section>
-                <h2>A few research keywords</h2>
+                <h2>Research keywords</h2>
                 <ul class="small-image-list">
                   <li>
                     <a href="#"><img src="images/pic2.jpg" alt="" class="left" /></a>
@@ -91,30 +114,20 @@
                   </li>
                 </ul>
               </section>
-
             </div>
-            <div class="col-4 col-6-medium col-12-small">
-              <section>
-                <h2>Links</h2>
-                <h4>Find me on other websites</h4>
-                <div>
-                  <div class="row">
-                    <div class="col-12">
-                      <ul class="link-list">
-                        <li>
-                          <!-- <img src="images/github-mark-white.png" style="width:15px; height:15px"/> -->
-                          <a href="https://github.com/drvdputt">Github: github.com/drvdputt</a>
-                        </li>
-                        <li><a href="https://ui.adsabs.harvard.edu/search/filter_property_fq_property=AND&filter_property_fq_property=property%3A%22refereed%22&fq=%7B!type%3Daqp%20v%3D%24fq_property%7D&fq_property=(property%3A%22refereed%22)&q=orcid%3A0000-0002-5895-8268&sort=date%20desc%2C%20bibcode%20desc&p_=0"> List of refereed papers on ADS</a></li>
-                        <li><a href="https://orcid.org/0000-0002-5895-8268">ORCiD: 0000-0002-5895-8268</a></li>
-                      </ul>
-                    </div>
-                  </div>
-                </div>
-              </section>
-            </div>
-            <div class="col-6 col-12-medium">
+          </div>
+          <!-- closes main row -->
 
+          <div class="row">
+            <div class="col-12">
+              <h2>Research projects</h2>
+              <p>Add multiple rows or tiles here. Each of them has an image, a
+              short description, and links to a place on the research page.
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-12">
               <section>
                 <h2>Software</h2>
                 <p>Below I've highlighted a few of my software projects which I
@@ -157,10 +170,11 @@
                   </li>
                 </ul>
               </section>
-
             </div>
-            <div class="col-6 col-12-medium">
+          </div>
 
+          <div class="row">
+            <div class="col-12">
               <article class="blog-post">
                 <h2>Recent publication</h2>
                 <a href="#"><img src="images/orion cut.jpg" alt="" class="top blog-post-image" /></a>
@@ -211,61 +225,59 @@
               </article>
             </div>
           </div>
-        </div>
-      </div>
 
-      <!-- Footer -->
-      <div id="footer-wrapper">
-        <div class="container">
-          <div class="row">
-            <div class="col-8 col-8-medium">
-              <section>
-                <h2>Collaborations</h2>
-                <div class="row">
-                  <div class="col-4 col-6-medium col-12-small">
-                    <h3>PDRs4all</h3>
-                    <ul class="link-list">
-                      <li>Large collaboration around JWST observations of the Orion Bar
-                      </li>
-                      <li><a href="https://pdrs4all.org">Official website (pdrs4all.org)</a></li>
-                      <li><a href="https://www.stsci.edu/jwst/science-execution/approved-programs/dd-ers/program-1288">Program ERS-1288 (stsci.edu)</a></li>
-                    </ul>
-                  </div>
-                  <div class="col-4 col-6-medium col-12-small">
-                    <h3>PDR GTO</h3>
-                    <ul class="link-list">
-                      <li>Observations of the Horsehead and NGC7023 with JWST</li>
-                      <li><a href="https://www.stsci.edu/jwst/science-execution/program-information?id=1192">Program GTO-1192 (stsci.edu)</a></li>
-                    </ul>
-                  </div>
+          <!-- Footer -->
+          <div id="footer-wrapper">
+            <div class="container">
+              <div class="row">
+                <div class="col-8 col-8-medium">
+                  <section>
+                    <h2>Collaborations</h2>
+                    <div class="row">
+                      <div class="col-4 col-6-medium col-12-small">
+                        <h3>PDRs4all</h3>
+                        <ul class="link-list">
+                          <li>Large collaboration around JWST observations of the Orion Bar
+                          </li>
+                          <li><a href="https://pdrs4all.org">Official website (pdrs4all.org)</a></li>
+                          <li><a href="https://www.stsci.edu/jwst/science-execution/approved-programs/dd-ers/program-1288">Program ERS-1288 (stsci.edu)</a></li>
+                        </ul>
+                      </div>
+                      <div class="col-4 col-6-medium col-12-small">
+                        <h3>PDR GTO</h3>
+                        <ul class="link-list">
+                          <li>Observations of the Horsehead and NGC7023 with JWST</li>
+                          <li><a href="https://www.stsci.edu/jwst/science-execution/program-information?id=1192">Program GTO-1192 (stsci.edu)</a></li>
+                        </ul>
+                      </div>
+                    </div>
+                  </section>
                 </div>
-              </section>
-            </div>
-            <div class="col-4 col-4-medium">
-              <h2>Contact</h2>
-              ✉️ dvandepu AT uwo.ca
-            </div>
-          </div>
-          <div class="row">
-            <div class="col-12">
-
-              <div id="copyright">
-                &copy; Untitled. All rights reserved. | Design: <a href="http://html5up.net">HTML5 UP</a>
+                <div class="col-4 col-4-medium">
+                  <h2>Contact</h2>
+                  ✉️ dvandepu AT uwo.ca
+                </div>
               </div>
+              <div class="row">
+                <div class="col-12">
 
+                  <div id="copyright">
+                    &copy; Untitled. All rights reserved. | Design: <a href="http://html5up.net">HTML5 UP</a>
+                  </div>
+
+                </div>
+              </div>
             </div>
           </div>
+
         </div>
-      </div>
 
-    </div>
-
-    <!-- Scripts -->
-    <script src="assets/js/jquery.min.js"></script>
-    <script src="assets/js/browser.min.js"></script>
-    <script src="assets/js/breakpoints.min.js"></script>
-    <script src="assets/js/util.js"></script>
-    <script src="assets/js/main.js"></script>
+        <!-- Scripts -->
+        <script src="assets/js/jquery.min.js"></script>
+        <script src="assets/js/browser.min.js"></script>
+        <script src="assets/js/breakpoints.min.js"></script>
+        <script src="assets/js/util.js"></script>
+        <script src="assets/js/main.js"></script>
 
   </body>
 </html>
