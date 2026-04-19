@@ -146,6 +146,11 @@ input, select, textarea {
 		margin: 2px 1.25em 0 0;
 	}
 
+        img.right {
+            float: right;
+            margin: 2px 0 0 1.25;
+        }
+
 	img.top {
 		margin: 4px 0 2.25em 0;
 	}
